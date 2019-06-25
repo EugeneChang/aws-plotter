@@ -1,0 +1,148 @@
+[
+  {
+    "selector": ":parent",
+    "css": {
+      "text-valign": "top",
+      "text-halign": "center"
+    }
+  },
+  {
+    "selector": "edge",
+    "css": {
+      "curve-style": "bezier",
+      "target-arrow-shape": "triangle"
+    }
+  },{
+    "selector": "edge[arrow]",
+    "css": {
+      "curve-style": "bezier",
+      "target-arrow-shape": "data(arrow)"
+    }
+  },
+  {
+    "selector": "node[label]",
+    "style": {
+      "label": "data(label)"
+    }
+  },
+  {
+    "selector": "edge[label]",
+    "style": {
+      "label": "data(label)",
+      "width": 3
+    }
+  },
+  {
+    "selector": ".top-left",
+    "style": {
+      "text-valign": "top",
+      "text-halign": "left"
+    }
+  },
+  {
+    "selector": ".top-center",
+    "style": {
+      "text-valign": "top",
+      "text-halign": "center"
+    }
+  },
+  {
+    "selector": ".top-right",
+    "style": {
+      "text-valign": "top",
+      "text-halign": "right"
+    }
+  },
+  {
+    "selector": ".center-left",
+    "style": {
+      "text-valign": "center",
+      "text-halign": "left"
+    }
+  },
+  {
+    "selector": ".center-center",
+    "style": {
+      "text-valign": "center",
+      "text-halign": "center"
+    }
+  },
+  {
+    "selector": ".center-right",
+    "style": {
+      "text-valign": "center",
+      "text-halign": "right"
+    }
+  },
+  {
+    "selector": ".bottom-left",
+    "style": {
+      "text-valign": "bottom",
+      "text-halign": "left"
+    }
+  },
+  {
+    "selector": ".bottom-center",
+    "style": {
+      "text-valign": "bottom",
+      "text-halign": "center"
+    }
+  },
+  {
+    "selector": ".bottom-right",
+    "style": {
+      "text-valign": "bottom",
+      "text-halign": "right"
+    }
+  },
+  {
+    "selector": "node",
+    "style": {
+      "height": 32,
+      "width": 32,
+      "background-fit": "cover"
+    }
+  },
+  {
+    "selector": ".ec2",
+    "style": {
+      "background-image": "images/Amazon-EC2@4x.png"
+    }
+  },
+  {
+    "selector": ".elb",
+    "style": {
+      "background-image": "images/Elastic-Load-Balancing_light-bg@4x.png"
+    }
+  },
+  {
+    "selector": ".elbv2-application",
+    "style": {
+      "background-image": "images/Elastic-Load-Balancing-ELB_Application-load-balancer_light-bg@4x.png"
+    }
+  },
+  {
+    "selector": ".nat-gateway",
+    "style": {
+      "background-image": "images/Amazon-VPC_NAT-Gateway_light-bg@4x.png"
+    }
+  },
+  {
+    "selector": ".rds",
+    "style": {
+      "background-image": "images/Amazon-RDS@4x.png"
+    }
+  },
+  {
+    "selector": ".resource-record-set",
+    "style": {
+      "background-image": "images/Amazon-Route-53@4x.png"
+    }
+  },
+  {
+    "selector": ".resource-record-set-private",
+    "style": {
+      "background-image": "images/Amazon-Route-53_dark-bg@4x.png"
+    }
+  }
+]

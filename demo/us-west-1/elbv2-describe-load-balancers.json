@@ -1,0 +1,50 @@
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-west-1:8888:loadbalancer/app/app-lb/1",
+            "DNSName": "app-lb-1-8888.us-west-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z2",
+            "LoadBalancerName": "app-lb-1",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-1",
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-west-1a",
+                    "SubnetId": "subnet-1"
+                },
+                {
+                    "ZoneName": "us-west-1b",
+                    "SubnetId": "subnet-2"
+                }
+            ],
+            "SecurityGroups": [
+                "sg-1"
+            ],
+            "IpAddressType": "ipv4"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-west-1:8888:loadbalancer/app/app-lb/2",
+            "DNSName": "app-lb-2-8888.us-west-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z2",
+            "LoadBalancerName": "app-lb-2",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-1",
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-west-1a",
+                    "SubnetId": "subnet-1"
+                },
+                {
+                    "ZoneName": "us-west-1b",
+                    "SubnetId": "subnet-2"
+                }
+            ],
+            "SecurityGroups": [
+                "sg-1"
+            ],
+            "IpAddressType": "ipv4"
+        }
+    ]
+}

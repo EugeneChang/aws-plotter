@@ -1,0 +1,14 @@
+{
+    "Vpcs": [
+        {
+            "CidrBlock": "10.0.0.0/16",
+            "VpcId": "vpc-1",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "demo-vpc"
+                }
+            ]
+        }
+    ]
+}

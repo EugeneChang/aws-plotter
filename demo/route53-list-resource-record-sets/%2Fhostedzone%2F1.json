@@ -1,0 +1,22 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "web",
+            "Type": "A",
+            "AliasTarget": {
+                "HostedZoneId": "1",
+                "DNSName": "web-lb-1-8888.us-west-1.elb.amazonaws.com.",
+                "EvaluateTargetHealth": false
+            }
+        },
+        {
+            "Name": "web",
+            "Type": "A",
+            "AliasTarget": {
+                "HostedZoneId": "2",
+                "DNSName": "web-lb-2-8888.us-west-1.elb.amazonaws.com.",
+                "EvaluateTargetHealth": false
+            }
+        }
+    ]
+}

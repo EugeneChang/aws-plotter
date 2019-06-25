@@ -1,0 +1,268 @@
+{
+    "Reservations": [
+        {
+            "Instances": [
+                {
+                    "InstanceId": "i-1",
+                    "PrivateIpAddress": "10.0.2.1",
+                    "SubnetId": "subnet-3",
+                    "VpcId": "vpc-1",
+                    "NetworkInterfaces": [
+                        {
+                            "PrivateIpAddress": "10.0.2.1",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.0.2.1"
+                                }
+                            ],
+                            "SubnetId": "subnet-3",
+                            "VpcId": "vpc-1"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "g1",
+                            "GroupId": "sg-1"
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "web-1"
+                        }
+                    ]
+                },
+                {
+                    "InstanceId": "i-2",
+                    "PrivateIpAddress": "10.0.2.2",
+                    "SubnetId": "subnet-3",
+                    "VpcId": "vpc-1",
+                    "NetworkInterfaces": [
+                        {
+                            "PrivateIpAddress": "10.0.2.2",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.0.2.2"
+                                }
+                            ],
+                            "SubnetId": "subnet-3",
+                            "VpcId": "vpc-1"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "g1",
+                            "GroupId": "sg-1"
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "web-2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Instances": [
+                {
+                    "InstanceId": "i-3",
+                    "PrivateIpAddress": "10.0.2.3",
+                    "SubnetId": "subnet-3",
+                    "VpcId": "vpc-1",
+                    "NetworkInterfaces": [
+                        {
+                            "PrivateIpAddress": "10.0.2.3",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.0.2.3"
+                                }
+                            ],
+                            "SubnetId": "subnet-3",
+                            "VpcId": "vpc-1"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "g1",
+                            "GroupId": "sg-1"
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "app-1"
+                        }
+                    ]
+                },
+                {
+                    "InstanceId": "i-4",
+                    "PrivateIpAddress": "10.0.2.4",
+                    "SubnetId": "subnet-3",
+                    "VpcId": "vpc-1",
+                    "NetworkInterfaces": [
+                        {
+                            "PrivateIpAddress": "10.0.2.4",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.0.2.4"
+                                }
+                            ],
+                            "SubnetId": "subnet-3",
+                            "VpcId": "vpc-1"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "g1",
+                            "GroupId": "sg-1"
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "app-2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Instances": [
+                {
+                    "InstanceId": "i-5",
+                    "PrivateIpAddress": "10.0.3.1",
+                    "SubnetId": "subnet-4",
+                    "VpcId": "vpc-1",
+                    "NetworkInterfaces": [
+                        {
+                            "PrivateIpAddress": "10.0.3.1",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.0.3.1"
+                                }
+                            ],
+                            "SubnetId": "subnet-4",
+                            "VpcId": "vpc-1"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "g1",
+                            "GroupId": "sg-1"
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "web-3"
+                        }
+                    ]
+                },
+                {
+                    "InstanceId": "i-6",
+                    "PrivateIpAddress": "10.0.3.2",
+                    "SubnetId": "subnet-4",
+                    "VpcId": "vpc-1",
+                    "NetworkInterfaces": [
+                        {
+                            "PrivateIpAddress": "10.0.3.2",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.0.3.2"
+                                }
+                            ],
+                            "SubnetId": "subnet-4",
+                            "VpcId": "vpc-1"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "g1",
+                            "GroupId": "sg-1"
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "web-4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Instances": [
+                {
+                    "InstanceId": "i-7",
+                    "PrivateIpAddress": "10.0.3.3",
+                    "SubnetId": "subnet-4",
+                    "VpcId": "vpc-1",
+                    "NetworkInterfaces": [
+                        {
+                            "PrivateIpAddress": "10.0.3.3",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.0.3.3"
+                                }
+                            ],
+                            "SubnetId": "subnet-4",
+                            "VpcId": "vpc-1"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "g1",
+                            "GroupId": "sg-1"
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "app-3"
+                        }
+                    ]
+                },
+                {
+                    "InstanceId": "i-8",
+                    "PrivateIpAddress": "10.0.3.4",
+                    "SubnetId": "subnet-4",
+                    "VpcId": "vpc-1",
+                    "NetworkInterfaces": [
+                        {
+                            "PrivateIpAddress": "10.0.3.4",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.0.3.4"
+                                }
+                            ],
+                            "SubnetId": "subnet-4",
+                            "VpcId": "vpc-1"
+                        }
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "g1",
+                            "GroupId": "sg-1"
+                        }
+                    ],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "app-4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

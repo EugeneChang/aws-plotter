@@ -1,0 +1,48 @@
+{
+    "TargetGroups": [
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-west-1:8888:targetgroup/app-lb/1",
+            "TargetGroupName": "app-lb-tg",
+            "Protocol": "HTTP",
+            "Port": 8080,
+            "VpcId": "vpc-1",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "8080",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 15,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 3,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-west-1:8888:loadbalancer/app/app-lb/1"
+            ],
+            "TargetType": "instance"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-west-1:8888:targetgroup/app-lb/2",
+            "TargetGroupName": "app-lb-tg",
+            "Protocol": "HTTP",
+            "Port": 8080,
+            "VpcId": "vpc-1",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "8080",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 15,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 3,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-west-1:8888:loadbalancer/app/app-lb/2"
+            ],
+            "TargetType": "instance"
+        }
+    ]
+}

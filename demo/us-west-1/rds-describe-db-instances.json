@@ -1,0 +1,54 @@
+{
+    "DBInstances": [
+        {
+            "DBInstanceIdentifier": "customer",
+            "DBInstanceClass": "db.m4.large",
+            "Engine": "postgres",
+            "DBInstanceStatus": "available",
+            "MasterUsername": "power_user",
+            "DBName": "customer",
+            "Endpoint": {
+                "Address": "customer.8888.us-west-2.rds.amazonaws.com",
+                "Port": 5432,
+                "HostedZoneId": "Z3"
+            },
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-1",
+                    "Status": "active"
+                }
+            ],
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "db-1",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "AvailabilityZone": "us-west-1a",
+            "DBSubnetGroup": {
+                "DBSubnetGroupName": "customer-subnet-group-1",
+                "DBSubnetGroupDescription": "RDS subnet group for customer",
+                "VpcId": "vpc-1",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "subnet-3",
+                        "SubnetAvailabilityZone": {
+                            "Name": "us-west-1a"
+                        },
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-4",
+                        "SubnetAvailabilityZone": {
+                            "Name": "us-west-1b"
+                        },
+                        "SubnetStatus": "Active"
+                    }
+                ]
+            },
+            "MultiAZ": false,
+            "DBInstanceArn": "arn:aws:rds:us-west-1:8888:db:customer"
+        }
+    ]
+}

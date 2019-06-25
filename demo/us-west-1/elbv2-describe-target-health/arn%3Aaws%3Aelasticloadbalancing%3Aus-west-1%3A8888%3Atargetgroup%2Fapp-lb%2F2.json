@@ -1,0 +1,44 @@
+{
+    "TargetHealthDescriptions": [
+        {
+            "Target": {
+                "Id": "i-3",
+                "Port": 8080
+            },
+            "HealthCheckPort": "8080",
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        },
+        {
+            "Target": {
+                "Id": "i-4",
+                "Port": 8080
+            },
+            "HealthCheckPort": "8080",
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        },
+        {
+            "Target": {
+                "Id": "i-7",
+                "Port": 8080
+            },
+            "HealthCheckPort": "8080",
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        },
+        {
+            "Target": {
+                "Id": "i-8",
+                "Port": 8080
+            },
+            "HealthCheckPort": "8080",
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        }
+    ]
+}

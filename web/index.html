@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href='style.css' rel='stylesheet' />
+  <meta charset=utf-8 />
+  <meta name='viewport' content='user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui'>
+  <title>AWS Plotter</title>
+  <script src='js/cytoscape.min.js'></script>
+  <script src='js/cytoscape-cose-bilkent.js'></script>
+  <script src='js/FileSaver.min.js'></script>
+</head>
+
+<body>
+  <div id="menu">
+    <a href="#" id="camera">Save as image</a>
+  </div>
+  <div id='cy'></div>
+  <!-- Load application code at the end to ensure DOM is loaded -->
+  <script src='js/aws-plotter.js'></script>
+</body>
+
+</html>

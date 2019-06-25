@@ -1,0 +1,25 @@
+{
+    "HostedZones": [
+        {
+            "Id": "/hostedzone/1",
+            "Name": "web",
+            "Config": {
+                "PrivateZone": false
+            }
+        },
+        {
+            "Id": "/hostedzone/2",
+            "Name": "app",
+            "Config": {
+                "PrivateZone": false
+            }
+        },
+        {
+            "Id": "/hostedzone/3",
+            "Name": "database",
+            "Config": {
+                "PrivateZone": true
+            }
+        }
+    ]
+}

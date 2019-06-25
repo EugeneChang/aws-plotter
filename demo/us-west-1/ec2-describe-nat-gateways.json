@@ -1,0 +1,44 @@
+{
+    "NatGateways": [
+        {
+            "NatGatewayAddresses": [
+                {
+                    "PublicIp": "51.62.73.84", 
+                    "NetworkInterfaceId": "eni-1", 
+                    "AllocationId": "eipalloc-1", 
+                    "PrivateIp": "10.0.0.10"
+                }
+            ], 
+            "VpcId": "vpc-1", 
+            "Tags": [
+                {
+                    "Value": "pubic-1-a-nat-gateway", 
+                    "Key": "Name"
+                }
+            ], 
+            "State": "available", 
+            "NatGatewayId": "nat-1", 
+            "SubnetId": "subnet-1"
+        }, 
+        {
+            "NatGatewayAddresses": [
+                {
+                    "PublicIp": "51.62.73.85", 
+                    "NetworkInterfaceId": "eni-2", 
+                    "AllocationId": "eipalloc-2", 
+                    "PrivateIp": "10.0.1.10"
+                }
+            ], 
+            "VpcId": "vpc-1", 
+            "Tags": [
+                {
+                    "Value": "pubic-1-b-nat-gateway", 
+                    "Key": "Name"
+                }
+            ], 
+            "State": "available", 
+            "NatGatewayId": "nat-2", 
+            "SubnetId": "subnet-2"
+        }
+    ]
+}

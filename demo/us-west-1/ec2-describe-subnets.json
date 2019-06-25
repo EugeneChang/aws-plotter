@@ -1,0 +1,56 @@
+{
+    "Subnets": [
+        {
+            "AvailabilityZone": "us-west-1a",
+            "AvailabilityZoneId": "usw1-az1",
+            "CidrBlock": "10.0.0.0/24",
+            "SubnetId": "subnet-1",
+            "VpcId": "vpc-1",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "public-1-a-subnet"
+                }
+            ]
+        },
+        {
+            "AvailabilityZone": "us-west-1b",
+            "AvailabilityZoneId": "usw1-az2",
+            "CidrBlock": "10.0.1.0/24",
+            "SubnetId": "subnet-2",
+            "VpcId": "vpc-1",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "public-1-b-subnet"
+                }
+            ]
+        },
+        {
+            "AvailabilityZone": "us-west-1a",
+            "AvailabilityZoneId": "usw1-az1",
+            "CidrBlock": "10.0.2.0/24",
+            "SubnetId": "subnet-3",
+            "VpcId": "vpc-1",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "private-1-a-subnet"
+                }
+            ]
+        },
+        {
+            "AvailabilityZone": "us-west-1b",
+            "AvailabilityZoneId": "usw1-az2",
+            "CidrBlock": "10.0.3.0/24",
+            "SubnetId": "subnet-4",
+            "VpcId": "vpc-1",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "private-1-b-subnet"
+                }
+            ]
+        }
+    ]
+}

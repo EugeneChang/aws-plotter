@@ -1,0 +1,8 @@
+{
+    "Regions": [
+        {
+            "Endpoint": "ec2.us-west-1.amazonaws.com",
+            "RegionName": "us-west-1"
+        }
+    ]
+}

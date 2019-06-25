@@ -1,0 +1,68 @@
+{
+    "LoadBalancerDescriptions": [
+        {
+            "LoadBalancerName": "web-lb-1",
+            "DNSName": "web-lb-1-8888.us-west-1.elb.amazonaws.com",
+            "CanonicalHostedZoneName": "web-lb-1-8888.us-west-1.elb.amazonaws.com",
+            "CanonicalHostedZoneNameID": "Z1",
+            "BackendServerDescriptions": [],
+            "AvailabilityZones": [
+                "us-west-1a"
+            ],
+            "Subnets": [
+                "subnet-1"
+            ],
+            "VPCId": "vpc-1",
+            "Instances": [
+                {
+                    "InstanceId": "i-1"
+                },
+                {
+                    "InstanceId": "i-2"
+                },
+                {
+                    "InstanceId": "i-5"
+                },
+                {
+                    "InstanceId": "i-6"
+                }
+            ],
+            "SecurityGroups": [
+                "sg-1"
+            ],
+            "Scheme": "internet-facing"
+        },
+        {
+            "LoadBalancerName": "web-lb-2",
+            "DNSName": "web-lb-2-8888.us-west-1.elb.amazonaws.com",
+            "CanonicalHostedZoneName": "web-lb-2-8888.us-west-1.elb.amazonaws.com",
+            "CanonicalHostedZoneNameID": "Z1",
+            "BackendServerDescriptions": [],
+            "AvailabilityZones": [
+                "us-west-1b"
+            ],
+            "Subnets": [
+                "subnet-2"
+            ],
+            "VPCId": "vpc-1",
+            "Instances": [
+                {
+                    "InstanceId": "i-1"
+                },
+                {
+                    "InstanceId": "i-2"
+                },
+                {
+                    "InstanceId": "i-5"
+                },
+                {
+                    "InstanceId": "i-6"
+                }
+            ],
+            "SecurityGroups": [
+                "sg-1"
+            ],
+            "Scheme": "internet-facing"
+        }
+    ]
+}

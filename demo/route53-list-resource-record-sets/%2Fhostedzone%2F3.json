@@ -1,0 +1,14 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "database",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "customer.8888.us-west-2.rds.amazonaws.com"
+                }
+            ]
+        }
+    ]
+}
